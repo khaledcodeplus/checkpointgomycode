@@ -1,0 +1,27 @@
+/* Change display of navbar to inline */
+nav ul {
+    display: inline;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  /* Change font to Roboto */
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  h2 {
+    background-color: blue; /* Sets the background color to blue */
+    padding: 10px; /* Optional: Adds padding for better visibility */
+    color: #ffffff; /* Optional: Sets text color to white */
+  }
+  h1 {
+    padding: 10px; /* Optional: Adds padding for better visibility */
+    color: rgb(193, 173, 206); /* Optional: Sets text color to white */
+  } 
+  div{ background-color:rgb(173, 196, 206);}
