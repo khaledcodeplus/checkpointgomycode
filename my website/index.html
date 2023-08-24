@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>a.ACADEMIE</title>
+    <link rel="icon" href="arduino-icon.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your external CSS file -->
+
+</head>
+<body>
+        <div class ="topPage">
+            <header>
+                <h1>a.ACADEMIE</h1>
+                <h3>Learn Arduino Programming</h3>
+            </header>
+            <!-- <select class="custom-select" onchange="location = this.value;">
+                    <option >Projects:</option>
+                    <option value="#TrafficSignalControl">Traffic Signal Control Device</option>
+                    <option value="#SmokeDetector">Smoke Detector</option>
+                    <option value="#Thermometer">Thermometer</option>
+                  </select> -->
+                  <div class="navbar">
+                    <div class="mobility">
+                        <a href="#HOME">Home</a>
+                        <a href="#About">About</a>
+                        <a href="#Blog">Blog</a>
+                        <a href="#Tutorials">Tutorials</a>
+                        <div class="proj">
+                            Projects
+                            <ul>
+                                <li><a href="#TrafficSignalControl">Traffic Signal Control Device</a></li>
+                                <li><a href="#SmokeDetector">Smoke Detector</a></li>
+                                <li><a href="#Thermometer">Thermometer</a></li>
+                            </ul>
+                        </div>
+                        <a href="#calculator">calculator</a>
+
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+                
+                
+                
+                
+            <section class ="HOME" id="HOME">
+                <h2 class="home-title">Welcome to a.ACADEMIE!</h2>
+                <p>Start your journey to mastering Arduino programming with our comprehensive tutorials and hands-on projects.</p>
+                
+
+                <div id="buttonContainer">
+                    <button id="myButton"><a href="https://www.youtube.com/watch?v=fJWR7dBuc18&list=PLGs0VKk2DiYw-L-RibttcvK-WBZm8WLEP">START</a></button>
+                </div>
+            
+                
+            </section>
+        </div>
+            <!-- <div class ="padsection"> -->
+            <section class ="About" id="About">
+                    <div class="about-image">
+                    <img src="aboutimg.jpg" 
+                    width ="550" height ="440">
+                    <!-- alt="About Us Image" -->
+                    </div>
+                    <div class="about-text">
+                        <h2>About</h2>
+                        <b>
+                        <p>
+                            Arduino is an open-source electronics platform based on easy-to-use hardware and software.
+                            It's designed for makers, hobbyists, and professionals to create a wide range of interactive
+                            projects and devices.
+                        </p>
+                            Arduino boards come in various shapes and sizes, offering different capabilities and features.
+                            With its user-friendly environment and vast community support, Arduino has become a popular
+                            choice for learning electronics and programming.
+                        <p class ="links">
+                            Check out this <a href="https://www.arduino.cc/en/about">arduino website</a> for more information!
+                        </p></b>
+                    </div>
+            </section>
+    <div class ="padsection">
+        <section class="Blog" id="Blog">
+            <h2>Blog</h2>
+            <div class="cards">
+              <a href="https://blog.arduino.cc/2021/07/20/an-arduino-powered-micro-quadruped-that-fits-in-the-palm-of-your-hand/?queryID=undefined" class="card card1">
+                <img src="blogimg1.png" alt="" height="250" width="350">
+                <h2>An Arduino-powered micro quadruped that fits in the palm of your hand</h2>
+                <p>Arduino-powered quadruped robots are quite common projects for hobbyists to build...</p>
+              </a>
+              <a href="https://blog.arduino.cc/2020/12/18/the-top-5-arduino-projects-for-beginners/?queryID=undefined" class="card card2">
+                <img src="blogimg2.png" alt="" height="250" width="350">
+                <h2>Top 5 Arduino projects for beginners</h2>
+                <p>Home for the holidays? This is the perfect time to make something!...</p>
+              </a>
+              <a href="https://blog.arduino.cc/2023/05/09/presenting-our-first-3-project-hub-competition-selections/?queryID=undefined" class="card card3">
+                <img src="blogimg3.png" alt="" height="250" width="350">
+                <h2>Presenting our first 3 Project Hub competition selections!</h2>
+                <p>Our recently launched “Arduino Project of the Month” initiative adds a pinch of competition...</p>
+              </a>
+            </div>
+          </section>
+          
+        
+            <section class ="Tutorials" id="Tutorials">
+            <h2>Tutorial</h2>
+            <div class ="tuto">
+            <h4>This beginner-friendly tutorial, crafted by Paul McWhorter, serves as a stepping stone to acquaint you with the fundamentals.</h4>
+            
+            <iframe 
+
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/videoseries?list=PLGs0VKk2DiYw-L-RibttcvK-WBZm8WLEP" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
+
+            </iframe>
+        </div>
+
+        </section>
+        <section class ="projects" id="projects">
+            <h2>Projects</h2>
+            <div class ="project">
+                <div class ="project1">
+                    <h3 id="TrafficSignalControl">
+                        Arduino Traffic Light Controller
+                    </h3>
+                    <p>
+                        When you’re first starting out with Arduino, 
+                        it’s imperative that you understand all of the elements that come with it. 
+                        Usually, you’ll have a few LED lights, a breadboard (the piece with all of the holes), 
+                        and a controller piece to connect it all together.
+                    </p>
+                    <p>
+                        You will also have to learn how to code. That can be the most challenging aspect of Arduino, 
+                        so we highly recommend that you start with something easy and straightforward. 
+                        This traffic light controller project is perfect because it enables you to use all of the systems provided by Arduino and learn them without getting too technical or too complicated.
+                    </p>
+
+                    <p>
+                        Simply put, once you master building this, 
+                        you can move on to more complex projects that can both expand your capabilities and help you push your creative outlet.
+                    </p>
+                    <h4>Components for Project</h4>
+                    <ul>
+                        <li>Red, yellow, and green LED</li>
+                        <li>Arduino board (any)</li>
+                        <li>Breadboard</li>
+                        <li>6x220 connectors</li>
+                        <li>Connecting wires</li>
+                        <li>One push button switch</li>
+                        <li>One 10k resistor</li>
+                    </ul>
+                    <iframe width="560" height="315" 
+                    src="https://www.youtube.com/embed/GcXmUjAJp-8" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; 
+                    autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; 
+                    picture-in-picture; 
+                    web-share" 
+                    allowfullscreen></iframe>
+                </div>
+                <div class ="project2">
+                    <h3 id="SmokeDetector">
+                        Arduino Smoke Detector
+                    </h3>
+                    <p>
+                        Although you should have these devices installed in your house already, 
+                        it’s always a good idea to have more, just to be safe.
+                        Building a smoke detector with an Arduino board will help you understand how these systems work and why they are so vital for home safety. 
+                        Not only that, but you can also adapt it to detect and warn against other elements, such as natural gas or carbon monoxide.
+                    </p>
+                    
+                    <h4>Components for Project</h4>
+                    <ul>
+                        <li>Arduino UNO board</li>
+                        <li>Smoke sensor (Piece MQ2)</li>
+                        <li>1K resistor</li>
+                        <li>10K resistor</li>
+                        <li>Buzzer</li>
+                        <li>LCD screen (16x2)</li>
+                        <li>10K potentiometer</li>
+                        <li>LED</li>
+                        <li>LM358 sensor</li>
+                        <li>Burg strips</li>
+                    </ul>
+                    <iframe width="560" height="315" 
+                    src="https://www.youtube.com/embed/PvEmrNJB_xw" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; 
+                    autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; 
+                    picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+                </div>
+                <div class ="project3">
+                    <h3 id="Thermometer">
+                        Arduino  Thermometer
+                    </h3>
+                    <p>
+                        Once again, you probably have a mercury thermometer or a thermostat in your home that can offer readings without having to build something from scratch. 
+                        However, there is something remarkably satisfying about creating a device that can be tested so easily and deliver such profound results. 
+                        Mastering this project will be an excellent stepping stone to other, more significant systems.
+                    </p>
+                    
+                    <h4>Components for Project</h4>
+                    <ul>
+                        <li>Arduino board</li>
+                        <li>Breadboard</li>
+                        <li>LCD (16x2)</li>
+                        <li>LM35 temperature sensor</li>
+                        <li>10K potentiometer</li>
+                        <li>19 jumpers for connections</li>
+                        <li>9-volt battery</li>
+                    </ul>
+                    <iframe width="560" height="315" 
+                        src="https://www.youtube.com/embed/oZ-oFY6TiPw" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; 
+                        autoplay; 
+                        clipboard-write; 
+                        encrypted-media; gyroscope; 
+                        picture-in-picture; web-share" 
+                        allowfullscreen>
+                    </iframe>
+                </div>    
+            </div>
+        </section>
+    </div>
+    <div class="calculator" id ="calculator">
+        <h2 class ="tc">Calculator</h2>
+    <div class="cont">
+    <div class="container" >
+        <h2>Decimal Binary Converter</h2>
+        <div class="wrapper">
+          <div class="input-wrapper">
+            <label for="dec-inp">Decimal:</label>
+            <input type="number" id="dec-inp" />
+          </div>
+          <div class="input-wrapper">
+            <label for="bin-inp">Binary:</label>
+            <input type="number" readonly id="bin-inp" />
+          </div>
+          <button id="convert"> Converter</button>
+        </div>
+        <p id="error-msg"></p>
+      </div>  </div>
+    
+        <div class="bagcontact">
+            <section class="contact" id="contact">
+                <h2>Contact Me</h2>
+                <div class="contact-links">
+                    <a href="mailto:clodkhaled2001@gmail.com">
+                        <img src="icon contact/email-icon.png" alt="Email">
+                    </a>
+                    <a href="https://www.linkedin.com/in/khaled-mahmoud-ba36a2273/" target="_blank">
+                        <img src="icon contact/linkedin-icon.png" alt="LinkedIn">
+                    </a>
+                    <a href="https://github.com/khaledcodeplus" target="_blank">
+                        <img src="icon contact/github-icon.png" alt="GitHub">
+                    </a>
+                    <a href="tel:+21692855630">
+                        <img src="icon contact/phone-icon.png" alt="Phone">
+                    </a>
+                </div>
+            </section>
+        </div>
+         
+
+        <footer>
+            <hr>
+            <p>&copy; 2023 a.ACADEMIE Website. All rights reserved.</p>
+        </footer>
+        <script src="script.js"></script>
+</body>
+</html>

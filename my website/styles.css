@@ -1,0 +1,371 @@
+ body {
+    
+  font-family: Arial, sans-serif; /* Specify font family for the content */
+  color: #333; /* Text color */
+    margin: 0;
+    padding: 0;
+    
+
+}
+.topPage {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-image: url('baground.jpg'); 
+    background-size: cover; /* Scale the image to cover the entire background */
+    background-position: center; /* Position the image at the center */
+    background-repeat: no-repeat; /* Prevent image from repeating */ 
+
+}
+header {
+    /* background-color: #333; */
+    color: #fff;
+    /* text-align: center; */
+    padding: 20px ;
+}
+header h1{
+    color: aqua;
+}
+/* Style for the navigation bar container */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: rgba(105, 161, 189, 0.2);
+  color: #fff;
+}
+
+/* Style for the navigation links */
+.mobility{
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+.mobility a {
+  text-decoration: none;
+  color: #6b6363;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.mobility a:hover, .dropbtn:hover {
+    color: #333; /* Darker color on hover */
+}
+
+.proj {
+    position: relative; /* Make the container relative for positioning the dropdown */
+    color: #6b6363;
+    font-weight: bold;
+    
+    
+
+
+}
+
+.proj ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0;
+    position: absolute;
+    background-color: rgb(129, 165, 184);
+    border: 1px solid white;
+    display: none; /* Hide the dropdown by default */
+    width: 260px;
+    top: 0;
+}
+
+.proj:hover ul {
+    display: block; /* Show the dropdown on hover */
+}
+
+.proj ul li {
+    padding: 10px;
+    
+}
+
+.proj ul li a {
+    text-decoration: none;
+    color: #6b6363;
+    font-weight: bold;
+}
+
+  
+.HOME 
+ {
+    width: 50%;
+    padding: 123px 28px ;
+
+    
+ }
+.home-title {
+    text-align: center; /* Center-align the text */
+    margin-bottom: 20px;
+    color: blue; /* Add some spacing below the title */
+  }
+.HOME P{
+
+    text-align: center; /* Center-align the text */
+    color:black
+} 
+ 
+#buttonContainer {
+    text-align: center;
+    margin-top: 20px;
+}
+#myButton a {
+    text-decoration: none;
+    color: white;
+}
+#myButton {
+    padding: 10px 20px;
+    background-color: #008184;    
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;}
+
+
+.About {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      width: 85%;
+     margin: 20px auto;
+     padding-top:45px;
+    
+}
+.about-image {
+    width: 50%;
+    max-width: 100%;
+    height: auto;
+
+
+  }
+.about-text {
+    width: 50%;
+    text-align: center;
+
+  }
+.about-text h2{
+ color:blue;
+
+
+} 
+.padsection{
+    padding: 30px;
+
+}  
+.padsection h2{
+    color:blue;
+    text-align: center;
+    background-color: rgba(105, 161, 189, 0.2);
+    padding: 20px;    
+    border-radius: 20px;
+
+
+
+}
+.padsection h3{
+    color:rgb(67, 67, 100);
+    text-align: center;
+
+}
+.padsection h4{
+    color:gray;
+
+}
+.padsection ul{
+    color:rgb(17, 16, 16);
+
+}
+
+.Blog {
+    background-color: transparent;
+  }
+  
+  .cards {
+    text-align: center;
+    display: flex;
+    gap: 20px;
+
+  }
+  
+  .cards h2 {
+    color: white;
+    background-color: transparent;
+    margin-top: 10px; /* Added for spacing */
+  }
+  
+  .card {
+    width: 33%;
+    padding: 20px; /* Reduced padding for better alignment */
+    background-color: gray;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s;
+    display: flex;
+    flex-direction: column; /* Added to arrange content vertically */
+    justify-content: space-between; /* Added for even spacing */
+  }
+  
+  .card img {
+    max-width: 100%; /* Added to ensure image fits within the card */
+   padding-left: 13px;
+  }
+  
+  .card p {
+    margin-top: 10px; /* Added for spacing */
+  }
+  
+  .card:hover {
+    background-color: #333;
+  }
+  
+.tuto{
+    padding: 30px;
+    text-align: center;
+
+}
+.Tutorials iframe
+{
+  padding: 40px ;
+}
+.Tutorials h4
+{
+  font-weight: 650;
+  color:black;
+}
+.project{
+ padding:30px;
+}
+.Res{
+    padding:30px;
+}
+
+/* convertisseur binaire decimal */
+.cont {
+padding-top:50px ;  
+padding-bottom:100px ;
+padding-left: 400px;
+text-align: center;
+}
+.calculator{
+  padding: 40px;
+
+}
+.calculator .tc{
+  color:blue;
+    text-align: center;
+    background-color: rgba(105, 161, 189, 0.2);
+    padding: 20px;
+    border-radius: 20px;
+
+}
+.container {
+  padding: 0;
+  padding-left: 40px;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #0075ff;
+  max-width: 37.5em;
+  padding: 3em 2.5em;
+  border-radius: 0.62em;
+  box-shadow: 0 1.2em 2.5em rgba(0, 21, 44, 0.18);
+}
+h2 {
+  font-size: 1.8em;
+  color:gray;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 1.3em;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.8em;
+}
+label {
+  display: block;
+  margin-bottom: 0.5em;
+  font-weight: 500;
+  color: #050121;
+}
+input {
+  position: relative;
+  font-size: 1.1em;
+  width: 100%;
+  padding: 0.5em;
+  border-radius: 0.2em;
+  border: 1.5px solid #43405c;
+  color: #43405c;
+  outline: none;
+}
+input:focus {
+  border-color: #0075ff;
+}
+#error-msg {
+  text-align: center;
+  margin-top: 1.25em;
+  color: #ff4362;
+}
+.container button{
+ 
+    padding: 10px 20px;
+    background-color: #8e9797;    
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+ /* convertisseur binaire deci */
+.bagcontact{
+  background-color: #008184;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+.contact {
+     border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px ;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #2f6f70; 
+    }
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .contact-links a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+  }
+  
+  .contact-links a:hover {
+    color: #5b7896;
+  }
+  .contact h2{
+    margin-bottom: 15px;
+    color:blue;
+  }
+  
+  .contact-links img {
+    width: 40px;
+    height: 40px;
+  }  
+   
+footer {
+    background-color: #008184;    
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}
